@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portafolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <h1 id="logo"><a href="#one">Marco Antonio Rivero</a></h1>
+        <p>
+          I'm a person <br />
+          started in the developer World
+        </p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">About me</a></li>
+          <li><a href="#two">Things I Can Do</a></li>
+          <li><a href="#three">My Project</a></li>
+          <li><a href="#four">Contact me</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a href="https://github.com/MarcoAR1" class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="image main" data-position="center"></div>
+          <div class="container">
+            <header class="major">
+              <h2>Marco Antonio Rivero</h2>
+              <p>
+                Full Stack Web Development and React Native.
+                <br />
+                <a href="#three">My little projects</a>.
+              </p>
+            </header>
+            <p>
+              About Me. <br />
+              I like Game estrategy like moba or chess. <br />
+              I know javascript,Html and css to any framework like React Native.
+              <br />
+              I speak Spanish and a little English.
+            </p>
+          </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+          <div class="container">
+            <h3>Things I Can Do</h3>
+            <ul class="feature-icons">
+              <li class="icon solid fa-coffee">Drink much coffee</li>
+              <li class="icon solid fa-code">Write all the code</li>
+              <li class="icon solid fa-code">Javascript</li>
+              <li class="icon solid fa-code">Mysql</li>
+              <li class="icon solid fa-code">Css</li>
+              <li class="icon solid fa-code">Html</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3>My projects</h3>
+            <p></p>
+            <div class="features">
+              <article>
+                <a
+                  href="https://marcoar1.github.io/PROJECT-ROCK-PAPER-SCISSORS/"
+                  class="image"
+                  ><img
+                    src="images/Fire Water Leaf.png"
+                    alt="game, rock peper scissors"
+                /></a>
+                <div class="inner">
+                  <h4>ROCK PAPER SCISSORS</h4>
+                  <p>
+                    ROCK PAPER SCISSORS version Pokemon Water Leaf and Fire.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  href="https://marcoar1.github.io/ETCH-A-SKETCH/"
+                  class="image"
+                  ><img src="images/Eatch-a-sketch.png" alt="pant, draw"
+                /></a>
+                <div class="inner">
+                  <h4>ETCH A SKETCH</h4>
+                  <p>Paint draw or do what you want.</p>
+                </div>
+              </article>
+              <article>
+                <a
+                  href="https://marcoar1.github.io/Project-Calculator/"
+                  class="image"
+                  ><img src="images/Calculator.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Calculator</h4>
+                  <p>Just a calculator.</p>
+                </div>
+              </article>
+              <article>
+                <a
+                  href="https://www.hackerrank.com/marcorivero_mr26"
+                  class="image"
+                  ><img src="images/HackerRank.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>HackerRank</h4>
+                  <p>Where i practic my problem solving.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four">
+          <div class="container" id="1">
+            <h3>Message Send</h3>
+          </div>
+          <div class="container" id="2">
+            <h3>Contact Me</h3>
+            <p>
+              if you wanna work with me, hare below you have a method for
+              contact me :D.
+            </p>
+            <form action="/send-email" method="POST">
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                    rows="6"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li>
+                      <input
+                        type="submit"
+                        class="primary"
+                        value="Send Message"
+                      />
+                    </li>
+                    <li><input type="reset" value="Reset Form" /></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container"></div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/src/public/assets/js/jquery.min.js"></script>
+    <script src="/src/public/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/src/public/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/src/public/assets/js/browser.min.js"></script>
+    <script src="/src/public/assets/js/breakpoints.min.js"></script>
+    <script src="/src/public/assets/js/util.js"></script>
+    <script src="/src/public/assets/js/main.js"></script>
+    <script src="/src/routes/index.js"></script>
+  </body>
+</html>
